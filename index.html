@@ -11,11 +11,73 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-size: 20px;
+        padding: 80px 50px;
+        background-color: #fcf8e3;
+      }
+      
+      h1 {
+        letter-spacing: 0.15em;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+      }
+
+    </style>
   </head>
   <body>
-    <h1>はるにゃんこ</h1>
+    <form class="form-horizontal">
+    <div class="container-fluid">
+      <div class="text-center">
+        <img src="profile.png" alt="" /><br>
+        <h1><strong>はるにゃんこ</strong></h1><br>
+      </div>
+    </div>
+    <hr>
     
-    連絡先
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-warning btn-lg">紹介文</button><br>
+        </div>
+        <div class="col-sm-7">
+          現在大学２年生。専攻は数学。<br>
+          プログラミングに興味を持ち始め、趣味の範囲で勉強しています。<br>
+          （作成日：2016/06/08）
+        </div>
+      </div>
+    </div>
+    <hr>
     
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-warning btn-lg">連絡先</button><br>
+        </div>
+        <div class="col-sm-7">
+          mail@sample.com
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-warning btn-lg">リンク</button><br>
+        </div>
+        <div class="col-sm-7">
+          <a href="https://github.com/harunyank0" target="_blank">
+            <button type="button" class="btn btn-link btn-lg">GitHub</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </form>
   </body>
 </html>
